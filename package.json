@@ -1,8 +1,10 @@
 {
     "name": "vermilion",
-    "displayName": "vermilion",
+    "displayName": "Vermilion",
     "description": "A theme for fanatics by red",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "publisher": "Ronaldd",
+    "author": "Ronaldd Pinho",
     "engines": {
         "vscode": "^1.47.0"
     },
@@ -17,5 +19,15 @@
                 "path": "./themes/Vermilion-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+    	"url": "https://github.com/pinho/vermilion-theme"
+    },
+    "homepage": "https://github.com/pinho/vermilion-theme",
+    "keywords": [
+    	"theme",
+    	"dark-theme",
+    	"red",
+    	"hot-colors"
+    ]
 }
