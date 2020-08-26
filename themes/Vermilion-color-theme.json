@@ -14,12 +14,10 @@
 		"input.placeholderForeground": "#333",
 		"badge.background": "#e85d04",
 		"panel.border": "#fc1431",
-		
 		// Welcome page
 		"welcomePage.background": "#1f0808",
 		"welcomePage.buttonBackground": "#2f0a0a",
 		"welcomePage.buttonHoverBackground": "#1f0808",
-		
 		// Editor
 		"editor.background": "#1f0808",
 		"editor.foreground": "#ffdddd",
@@ -44,7 +42,6 @@
 		"editorGutter.foldingControlForeground": "#ff0000",
 		"editorIndentGuide.background": "#420606",
 		"editorIndentGuide.activeBackground": "#fc143190",
-		
 		// Tabs of editor (files open)
 		"tab.border": "#1f0808",
 		"tab.activeBorder": "#fc1431",
@@ -53,13 +50,11 @@
 		"tab.inactiveForeground": "#ffffff90",
 		"tab.activeModifiedBorder": "#faa307",
 		"tab.activeForeground": "#ffffff",
-		
 		// Left bar (Dir, Search, Extensions, etc...)
 		"activityBar.background": "#1f0808",
 		"activityBar.foreground": "#fc1431",
 		"activityBarBadge.background": "#e85d04",
 		"activityBarBadge.foreground": "#fff",
-		
 		// Container side
 		"sideBar.background": "#1f0808",
 		"sideBar.foreground": "#ffdddd",
@@ -68,11 +63,9 @@
 		"sideBarSectionHeader.border": "#1f0808",
 		"sideBarSectionHeader.foreground": "#eaeaea",
 		"sideBar.dropBackground": "#1f0a0a",
-		
 		// Terminal
 		"terminal.border": "#fc1431",
 		"terminalCursor.foreground": "#faa307",
-		
 		// Notificações
 		"notifications.background": "#1f0808",
 		"notifications.border": "#111",
@@ -83,14 +76,14 @@
 		"notificationsErrorIcon.foreground": "#f02a3a",
 		"notificationsWarningIcon.foreground": "#faa307",
 		"notificationCenterHeader.background": "#1f0808",
-		"notificationCenterHeader.foreground": "#f02a3a",
-		
+		"notificationCenterHeader.foreground": "#f02a3a",		
 		// Barra de status (abaixo da janela)
 		"statusBar.background": "#1f0808",
 		"statusBar.noFolderBackground": "#dc2f02",
 		"statusBarItem.activeBackground": "#2f0a0a",
 		"statusBarItem.hoverBackground": "#0f0203",
 	},
+
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -106,10 +99,23 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.terminator.statement.cpp",
+				"punctuation.separator.scope-resolution.cpp",
+				"punctuation.separator"
+			],
+			"settings": {
+				"foreground": "#fc1431"
+			}
+		},
+		{
 			"name": "Names",
 			"scope": [
 				"variable",
-				"entity.name.class"
+				"entity.name.class",
+				"punctuation.separator.delimiter.comma",
+				"storage.type.class.doxygen"
 			],
 			"settings": {
 				"foreground": "#eaeaea"
@@ -120,40 +126,50 @@
 			"scope": [
 				"entity.name.function",
 				"entity.name.method",
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"punctuation.section.parameters",
+				"punctuation.section.block.begin.bracket.curly.function",
+				"punctuation.section.block.end.bracket.curly.function",
 			],
 			"settings": {
-				"foreground": "#FFD23F"
+				"foreground": "#ffd23f"
 			}
 		},
 		{
 			"name": "Custom Type names",
 			"scope": [
-				"entity.name.type",
-				"variable.name"
+				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#FF5714"
+				"foreground": "#ff8824"
 			}
 		},
 		{
-			"name": "Keywords Macros",
+			"name": "Default Keywords",
 			"scope": [
 				"keyword",
-				"punctuation.separator"
+				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#8e5dbe"
+				"foreground": "#dc2f02"
 			}
 		},
 		{
 			"name": "Primitive types and Storage",
 			"scope": [
 				"storage.type",
-				"storage.modifier"
+				"punctuation.separator.colon.access",
+				"constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#2176aa"
+				"foreground": "#8093f1"
+			}
+		},
+		{
+			"name": "Modificadores",
+			"scope": [ "storage.modifier" ],
+			"settings": {
+				"foreground": "#5663c1"
 			}
 		},
 		{
@@ -181,7 +197,9 @@
 		{
 			"name": "Numbers and Contant values",
 			"scope": [
-				"constant.numeric"
+				"constant.numeric",
+				"constant.language.true.cpp",
+				"constant.language.false.cpp"
 			],
 			"settings": {
 				"foreground": "#fc3441"
@@ -193,7 +211,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#a0a0a0",
+				"foreground": "#efe9ae",
 				"fontStyle": "italic"
 			}
 		}
