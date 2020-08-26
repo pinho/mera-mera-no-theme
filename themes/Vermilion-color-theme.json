@@ -2,23 +2,24 @@
 	"name": "Vermilion",
 	"type": "dark",
 	"colors": {
-		"foreground": "#eee",
+		"foreground": "#ffffff",
+		"textLink.foreground": "#fc1431",
+		"textLink.activeForeground": "#ffffff",
 		"focusBorder": "#600a0a",
 		"button.background": "#dc2f02",
-		"button.foreground": "#fff",
-		"textLink.foreground": "#8d99ae",
-		"textLink.activeForeground": "#2b2d42",
-		"input.background": "#111",
+		"button.foreground": "#ffffff",
+		"input.background": "#111111",
+		"input.foreground": "#ffd000",
 		"input.border": "#000",
-		"input.foreground": "#faa307",
-		"input.placeholderForeground": "#333",
-		"badge.background": "#e85d04",
+		"input.placeholderForeground": "#444",
+		"badge.background": "#FA230A",
 		"panel.border": "#fc1431",
-		// Welcome page
+
+		
 		"welcomePage.background": "#1f0808",
-		"welcomePage.buttonBackground": "#2f0a0a",
-		"welcomePage.buttonHoverBackground": "#1f0808",
-		// Editor
+		"welcomePage.buttonBackground": "#2f0808",
+		"welcomePage.buttonHoverBackground": "#2f080877",
+		
 		"editor.background": "#1f0808",
 		"editor.foreground": "#ffdddd",
 		"editor.selectionBackground": "#fc143120",
@@ -27,6 +28,7 @@
 		"editor.lineHighlightBorder": "#370617",
 		"editor.lineHighlightBackground": "#370617",
 		"editorCursor.foreground": "#faa307",
+		"editorRuler.foreground": "#3F0A0A",
 		"editorLineNumber.foreground": "#ffd1e333",
 		"editorLineNumber.activeForeground": "#ffff",
 		"editorSuggestWidget.background": "#2f0a0a",
@@ -42,7 +44,7 @@
 		"editorGutter.foldingControlForeground": "#ff0000",
 		"editorIndentGuide.background": "#420606",
 		"editorIndentGuide.activeBackground": "#fc143190",
-		// Tabs of editor (files open)
+		
 		"tab.border": "#1f0808",
 		"tab.activeBorder": "#fc1431",
 		"tab.hoverBackground": "#14030a",
@@ -50,23 +52,27 @@
 		"tab.inactiveForeground": "#ffffff90",
 		"tab.activeModifiedBorder": "#faa307",
 		"tab.activeForeground": "#ffffff",
-		// Left bar (Dir, Search, Extensions, etc...)
+		
 		"activityBar.background": "#1f0808",
 		"activityBar.foreground": "#fc1431",
-		"activityBarBadge.background": "#e85d04",
+		"activityBarBadge.background": "#FA230A",
 		"activityBarBadge.foreground": "#fff",
-		// Container side
+		
 		"sideBar.background": "#1f0808",
 		"sideBar.foreground": "#ffdddd",
-		"sideBarSectionHeader.background": "#1f0808",
-		"sideBarTitle.foreground": "#fff",
-		"sideBarSectionHeader.border": "#1f0808",
-		"sideBarSectionHeader.foreground": "#eaeaea",
 		"sideBar.dropBackground": "#1f0a0a",
-		// Terminal
+		"sideBarTitle.foreground": "#fff",
+		"sideBarSectionHeader.foreground": "#A1A1A1",
+		"sideBarSectionHeader.background": "#1f0808",
+		"sideBarSectionHeader.border": "#1f0808",
+		"list.activeSelectionBackground": "#3F0A0A",
+		"list.activeSelectionForeground": "#FFF75E",
+		"list.hoverBackground": "#3F0A0A",
+		"list.inactiveSelectionBackground": "#370617",
+		
 		"terminal.border": "#fc1431",
-		"terminalCursor.foreground": "#faa307",
-		// Notificações
+		"terminalCursor.foreground": "#FFD000",
+		
 		"notifications.background": "#1f0808",
 		"notifications.border": "#111",
 		"notifications.foreground": "#fff",
@@ -74,14 +80,17 @@
 		"notificationToast.border": "#2f0a0a",
 		"notificationsInfoIcon.foreground": "#7aff7a",
 		"notificationsErrorIcon.foreground": "#f02a3a",
-		"notificationsWarningIcon.foreground": "#faa307",
+		"notificationsWarningIcon.foreground": "#fcc000",
 		"notificationCenterHeader.background": "#1f0808",
 		"notificationCenterHeader.foreground": "#f02a3a",		
-		// Barra de status (abaixo da janela)
+		
 		"statusBar.background": "#1f0808",
-		"statusBar.noFolderBackground": "#dc2f02",
+		"statusBar.noFolderBackground": "#fc1431",
 		"statusBarItem.activeBackground": "#2f0a0a",
-		"statusBarItem.hoverBackground": "#0f0203",
+		"statusBarItem.hoverBackground": "#000",
+		"statusBar.debuggingBackground": "#FFD000",
+
+		"debugToolBar.background": "#E82510"
 	},
 
 	"tokenColors": [
@@ -202,7 +211,7 @@
 				"constant.language.false.cpp"
 			],
 			"settings": {
-				"foreground": "#fc3441"
+				"foreground": "#457b9d"
 			}
 		},
 		{
