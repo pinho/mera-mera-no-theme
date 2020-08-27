@@ -177,10 +177,10 @@
 				"keyword.control.directive.include.cpp",
 				"keyword.control.directive.define.cpp",
 				"keyword.control.directive.undef.cpp",
-				"keyword.control.directive.conditional.ifdef.cpp",
-				"keyword.control.directive.conditional.ifndef.cpp",
+				"keyword.control.directive.ifdef.cpp",
+				"keyword.control.directive.ifndef.cpp",
 				"keyword.control.directive.conditional.if.cpp",
-				"keyword.control.directive.conditional.else.cpp",
+				"keyword.control.directive.else.cpp"
 				"keyword.control.directive.endif.cpp",
 				"storage.type.class.doxygen"
 			],
