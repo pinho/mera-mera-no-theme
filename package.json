@@ -2,15 +2,9 @@
     "name": "vermilion",
     "displayName": "Vermilion",
     "description": "A theme for fanatics by red",
-    "version": "0.8.0",
+    "version": "0.13.0",
     "publisher": "Ronaldd",
     "author": "Ronaldd Pinho",
-    "engines": {
-        "vscode": "^1.47.0"
-    },
-    "categories": [
-        "Themes"
-    ],
     "contributes": {
         "themes": [
             {
@@ -20,6 +14,12 @@
             }
         ]
     },
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
     "repository": {
     	"url": "https://github.com/pinho/vermilion-theme"
     },

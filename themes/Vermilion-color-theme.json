@@ -116,9 +116,8 @@
 		"statusBar.noFolderForeground": "#FFF",
 		"statusBarItem.activeBackground": "#2f0a0a",
 		"statusBarItem.hoverBackground": "#100205",
-		"statusBar.debuggingBackground": "#2A9D8F",
+		"statusBar.debuggingBackground": "#99CC00",
 		"statusBar.debuggingForeground": "#FFF",
-		"statusBar.debuggingBorder": "#FDD000",
 
 		// Bloco de botões/opções de debug
 		"debugToolBar.background": "#131313",
@@ -126,8 +125,11 @@
 	},
 
 	"tokenColors": [
+		//--------------------------------------------------
+		// Comentários (uma linha, blocos, doxygen)
+		//--------------------------------------------------
 		{
-			"name": "Comment",
+			"name": "Comments",
 			"scope": [
 				"comment",
 				"comment.line",
@@ -139,82 +141,79 @@
 				"fontStyle": "italic"
 			}
 		},
+		//--------------------------------------------------
+		// Configurações específicas para sintaxe do C++
+		//  - Sinalizador de diretivas de pré-processamento
+		// 	- Texto das Diretivas de Pré-processamento
+		//  - Include Guards e Macros
+		//--------------------------------------------------
 		{
-			"name": "Punctuation",
+			"name": "C/C++ Preprocessor signal (#)",
 			"scope": [
-				"punctuation.terminator.statement.cpp",
-				"punctuation.separator.scope-resolution.cpp",
-				"punctuation.separator"
+				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
-				"foreground": "#fc1431"
+				"foreground": "#FC1431",
+				"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "Names",
+			"name": "C/C++ Preprocessor",
 			"scope": [
-				"variable",
-				"entity.name.class",
-				"punctuation.separator.delimiter.comma",
+				"entity.name.function.preprocessor.cpp",
+				"string.quoted.other.lt-gt.include.cpp",
+				"string.quoted.double.include.cpp",
+			],
+			"settings": {
+				"foreground": "#C5C5C5"
+			}
+		},
+		{
+			"name": "C/C++ Preprocessor directive",
+			"scope": [
+				"meta.preprocessor.include.cpp",
+				"punctuation.definition.string.begin.cpp",
+				"punctuation.definition.string.end.cpp",
+				"keyword.control.directive.include.cpp",
+				"keyword.control.directive.define.cpp",
+				"keyword.control.directive.undef.cpp",
+				"keyword.control.directive.conditional.ifdef.cpp",
+				"keyword.control.directive.conditional.ifndef.cpp",
+				"keyword.control.directive.conditional.if.cpp",
+				"keyword.control.directive.conditional.else.cpp",
+				"keyword.control.directive.endif.cpp",
 				"storage.type.class.doxygen"
 			],
 			"settings": {
-				"foreground": "#eaeaea"
+				"foreground": "#979797"
 			}
 		},
+		//--------------------------------------------------------------
+		// Palavras reservadas da linguagem, como estruturas de
+		// controle de fluxo (for, while, if, else ...) e tipos
+		// primitivos (int, double, char ...)
+		//--------------------------------------------------------------
 		{
-			"name": "Functions and Attributes",
+			"name": "General Keywords",
 			"scope": [
-				"entity.name.function",
-				"entity.name.method",
-				"entity.other.attribute-name",
-				"punctuation.section.parameters",
-				"punctuation.section.block.begin.bracket.curly.function",
-				"punctuation.section.block.end.bracket.curly.function",
+				"keyword.control",
+				"keyword.operator.cpp",
+				"storage.modifier.reference.cpp",
+				"punctuation.section.parens.begin.bracket.round",
+				"punctuation.section.parens.end.bracket.round",
+				"punctuation.section.block.begin.bracket.curly",
+				"punctuation.section.block.end.bracket.curly",
+				"punctuation.separator.scope-resolution",
+				"punctuation.terminator.statement",
+				"punctuation.separator.dot-access",
+				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#ffd23f"
+				"foreground": "#fA230A"
 			}
 		},
 		{
-			"name": "Custom Type names",
-			"scope": [
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#ff8824"
-			}
-		},
-		{
-			"name": "Default Keywords",
-			"scope": [
-				"keyword",
-				"constant.character.escape"
-			],
-			"settings": {
-				"foreground": "#dc2f02"
-			}
-		},
-		{
-			"name": "Primitive types and Storage",
-			"scope": [
-				"storage.type",
-				"punctuation.separator.colon.access",
-				"constant.other.placeholder"
-			],
-			"settings": {
-				"foreground": "#8093f1"
-			}
-		},
-		{
-			"name": "Modificadores",
-			"scope": [ "storage.modifier" ],
-			"settings": {
-				"foreground": "#5663c1"
-			}
-		},
-		{
-			"name": "Keywords Statements",
+			"name": "Default Operators",
 			"scope": [
 				"keyword.operator.arithmetic",
 				"keyword.operator.assignment",
@@ -222,38 +221,166 @@
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#ffffff",
+				"foreground": "#FFFFFF",
 				"fontStyle": "bold"
 			}
 		},
+		//--------------------------------------------------------------
+		// Funções e parâmetros
+		//--------------------------------------------------------------
 		{
-			"name": "String literals",
+			"name": "Functions & Brackets",
 			"scope": [
-				"string"
+				"entity.name.function",
+				"punctuation.section.parameters.begin.bracket.round",
+				"punctuation.section.parameters.end.bracket.round",
+				"punctuation.section.block.begin.bracket.curly.function.definition",
+				"punctuation.section.block.end.bracket.curly.function.definition"
 			],
 			"settings": {
-				"foreground": "#6EEB83"
+				"foreground": "#ffca08"
 			}
 		},
 		{
-			"name": "Numbers and Contant values",
+			"name": "Function Params",
 			"scope": [
-				"constant.numeric",
-				"constant.language.true.cpp",
-				"constant.language.false.cpp"
-			],
-			"settings": {
-				"foreground": "#457b9d"
-			}
-		},
-		{
-			"name": "Parameters",
-			"scope": [	
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#efe9ae",
+				"foreground": "#f37748",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C/C++ preprocessor definitions 2",
+			"scope": [ 
+				"meta.preprocessor.macro.cpp",
+				"entity.name.function.preprocessor"
+			],
+			"settings": {
+				"foreground": "#DDCCCC"
+			}
+		},
+		//------------------------------------------------------------------
+		// Keywords relacionadas à armazenamento,
+		// Tipos primitivos, modificadores de acesso, palavras de definição
+		//------------------------------------------------------------------
+		{
+			"name": "Primitive types",
+			"scope": [
+				"storage.type",
+				"punctuation.section.block.begin.bracket.curly.class",
+				"punctuation.section.block.end.bracket.curly.class",
+				"punctuation.separator.colon.inheritance"
+			],
+			"settings": {
+				"foreground": "#9381ff"
+			}
+		},
+		{
+			"name": "Default Modifiers",
+			"scope": [
+				"storage.modifier",
+				"keyword.other.using.directive",
+				"keyword.operator.sizeof",
+				"keyword.operator.comparison",
+				"keyword.operator.increment",
+				"punctuation.section.arguments.begin.bracket.round.operator.sizeof.cpp",
+				"punctuation.section.arguments.end.bracket.round.operator.sizeof.cpp"
+			],
+			"settings": {
+				"foreground": "#6351cf"
+			}
+		},
+		//------------------------------------------------------------
+		// The auto-reference operator "this"
+		//------------------------------------------------------------
+		{
+			"name": "Auto-Pointer",
+			"scope": [
+				"variable.language.this"
+			],
+			"settings": {
+				"foreground": "#20CF55",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Pointer Access Arrow",
+			"scope": [
+				"punctuation.separator.pointer-access.cpp"
+			],
+			"settings": {
+				"foreground": "#024F15",
+				"fontStyle": "bold"
+			}
+		},
+		//------------------------------------------------------------------
+		// Tipos definidos pelo programador/usuário
+		// Tipos customizados, nomes de classes, structs, etc.
+		//------------------------------------------------------------------
+		{
+			"name": "",
+			"scope": [
+				"entity.name.type",
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#FF7B00"
+			}
+		},
+		//------------------------------------------------------------------
+		// String literais (texto definido com aspas)
+		//  + caracteres de escape
+		//  + caracteres de formatação com %
+		//------------------------------------------------------------------
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.single",
+				"string.quoted.double",
+				"string.quoted.triple",
+				"string.quoted.other",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#7ae582"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#f37748"
+			}
+		},
+		{
+			"name": "C/C++ Placeholder",
+			"scope": [
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#cc444b"
+			}
+		},
+		//------------------------------------------------------------------
+		// Valores constantes:
+		// Aplicado à valores numéricos (int, double, float), valores
+		// booleanos (true, false) ...
+		//------------------------------------------------------------------
+		{
+			"name": "Constant values",
+			"scope": [
+				"constant.numeric",
+				"constant.language.true",
+				"constant.language.false",
+				"constant.rgb-value"
+			],
+			"settings": {
+				"foreground": "#FC1431"
 			}
 		}
 	]
