@@ -388,6 +388,118 @@
 			"settings": {
 				"foreground": "#FC1431"
 			}
+		},
+		//--------------------------------------------------------------------------
+		// Desenvolvimento Web.
+		// Cores de sintaxe para códigos HTML ou que incluem tags HTML
+		// classes e outras definições CSS, Sass e Stylus.
+		// Arquivos de componentes Vue.
+		//--------------------------------------------------------------------------
+		// Tags HTML
+		{
+			"name": "Tags HTML",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#FC2441"
+			}
+		},
+		{
+			"name": "Open/Close Tags '<' & '>'",
+			"scope": [
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end"
+			],
+			"settings": {
+				"foreground": "#A1A1A1"
+			}
+		},
+		{
+			"name": "HTML Attributes",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
 		}
+		//--------------------------------------------------------------------------
+		// Nomes e Valores de propriedades CSS
+		//--------------------------------------------------------------------------
+		{
+			"name": "CSS Property-names",
+			"scope": [
+				"support.type.property-name.css",
+				"meta.property-name.scss",
+				"meta.property-name.stylus",
+				"punctuation.separator.key-value.css",
+				"punctuation.separator.key-value.scss"
+			],
+			"settings": {
+				"foreground": "#d6d6d6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "CSS Property-values",
+			"scope": [
+				"meta.property-value.css",
+				"meta.property-value.scss",
+				"meta.property-value.stylus",
+				"constant.numeric.css"
+			],
+			"settings": {
+				"foreground": "#9381ff"
+			}
+		},
+		{
+			"name": "IDs CSS",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.id.scss"
+			],
+			"settings": {
+				"foreground": "#ffe066"
+			}
+		},
+		{
+			"name": "Classes CSS",
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.scss"
+			],
+			"settings": {
+				"foreground": "#FF7B00"
+			}
+		},
+		{
+			"name": "Pseudo-classes CSS",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class"
+			],
+			"settings": {
+				"foreground": "#d883ff",
+				"fontStyle": "italic"
+			}
+		},
+		//--------------------------------------------------------------------------
+		// Sass e SCSS
+		//--------------------------------------------------------------------------
+		{
+			"name": "SCSS Variables",
+			"scope": [
+				"variable.scss",
+				"meta.definition.variable.scss"
+			],
+			"settings": {
+				"foreground": "#FDD000"
+			}
+		},
+		//--------------------------------------------------------------------------
+		// JavaScript & TypeScript
+		// Definição de cores de sintaxe específicas para essas linguagens
+		//--------------------------------------------------------------------------
+		// { }
 	]
 }
