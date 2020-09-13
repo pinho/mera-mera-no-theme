@@ -4,7 +4,7 @@
 	"author": "Ronaldd Pinho",
 	"colors": {
 		"foreground": "#ffffff",
-		"textLink.foreground": "#fc1431",
+		"textLink.foreground": "#FFD000",
 		"textLink.activeForeground": "#ffffff",
 		"focusBorder": "#600a0a",
 
@@ -15,8 +15,7 @@
 		"input.background": "#111",
 		"input.foreground": "#ffd000",
 		"input.border": "#000",
-		"input.placeholderForeground": "#444",
-
+		"input.placeholderForeground": "#555",
 		"badge.background": "#FA230A",
 		
 		// Página inicial
@@ -153,7 +152,7 @@
 				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
-				"foreground": "#FFEEEE",
+				"foreground": "#0077b6",
 				"fontStyle": "bold"
 			}
 		},
@@ -162,18 +161,19 @@
 			"scope": [
 				"entity.name.function.preprocessor.cpp",
 				"string.quoted.other.lt-gt.include.cpp",
-				"string.quoted.double.include.cpp"
+				"string.quoted.double.include.cpp",
+				"punctuation.definition.string.begin.cpp",
+				"punctuation.definition.string.end.cpp",
 			],
 			"settings": {
-				"foreground": "#C5C5C5"
+				"foreground": "#668db5",
+				// "fontStyle": "bold"
 			}
 		},
 		{
 			"name": "C/C++ Preprocessor directive",
 			"scope": [
 				"meta.preprocessor.include.cpp",
-				"punctuation.definition.string.begin.cpp",
-				"punctuation.definition.string.end.cpp",
 				"keyword.control.directive.include.cpp",
 				"keyword.control.directive.define.cpp",
 				"keyword.control.directive.undef.cpp",
@@ -186,7 +186,7 @@
 				"storage.source.cmake"
 			],
 			"settings": {
-				"foreground": "#979797"
+				"foreground": "#0077b6"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -215,12 +215,21 @@
 		},
 		{
 			"name": "Default Operators",
+			"scope": [ 
+				"keyword.operator.cpp",
+				"storage.modifier.reference.cpp"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Default Operators -- Bold",
 			"scope": [
 				"keyword.operator.arithmetic",
 				"keyword.operator.assignment",
 				"keyword.operator.logical",
-				"keyword.operator.new",
-				"storage.modifier.reference.cpp"
+				"keyword.operator.new"
 			],
 			"settings": {
 				"foreground": "#FFFFFF",
@@ -250,8 +259,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				// "foreground": "#f37748",
-				"foreground": "#C4C4C4",
+				"foreground": "#CACACA",
 				"fontStyle": "italic"
 			}
 		},
@@ -262,7 +270,7 @@
 				"entity.name.function.preprocessor"
 			],
 			"settings": {
-				"foreground": "#DDCCCC"
+				"foreground": "#0077b6"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -292,10 +300,32 @@
 				"keyword.operator.comparison",
 				"keyword.operator.increment",
 				"punctuation.section.arguments.begin.bracket.round.operator.sizeof.cpp",
-				"punctuation.section.arguments.end.bracket.round.operator.sizeof.cpp"
+				"punctuation.section.arguments.end.bracket.round.operator.sizeof.cpp",
+				"punctuation.section.block.begin.bracket.curly.namespace.cpp",
+				"punctuation.section.block.end.bracket.curly.namespace.cpp",
+				"punctuation.section.block.begin.bracket.curly.enum",
+				"punctuation.section.block.end.bracket.curly.enum",
+				"punctuation.section.block.begin.bracket.curly.struct",
+				"punctuation.section.block.end.bracket.curly.struct",
+				"meta.tail.extern.cpp"
 			],
 			"settings": {
 				"foreground": "#6351cf"
+			}
+		},
+		//--------------------------------------------------------------------------
+		// Comentários com documentação (types)
+		//--------------------------------------------------------------------------
+		{
+			"name": "Docs in Comments",
+			"scope": [
+				"storage.type.class.doxygen",
+				"storage.type.class.gtkdoc",
+				// "markup.inline.raw.string"
+			],
+			"settings": {
+				"foreground": "#CAA",
+				"fontStyle": "italic"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -326,7 +356,7 @@
 		// Tipos customizados, nomes de classes, structs, etc.
 		//--------------------------------------------------------------------------
 		{
-			"name": "",
+			"name": "Custom types",
 			"scope": [
 				"entity.name.type",
 				"entity.name.class"
@@ -360,7 +390,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#f37748"
+				"foreground": "#f94144"
 			}
 		},
 		{
@@ -369,7 +399,7 @@
 				"constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#cc444b"
+				"foreground": "#bfd200"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -386,7 +416,7 @@
 				"constant.rgb-value"
 			],
 			"settings": {
-				"foreground": "#FC1431"
+				"foreground": "#f94144"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -423,7 +453,7 @@
 			"settings": {
 				"foreground": "#FF0000"
 			}
-		}
+		},
 		//--------------------------------------------------------------------------
 		// Nomes e Valores de propriedades CSS
 		//--------------------------------------------------------------------------
