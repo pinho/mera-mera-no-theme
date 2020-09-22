@@ -1,9 +1,9 @@
 {
-	"name": "Vermilion",
+	"name": "Vermilion Nightly",
 	"type": "dark",
 	"author": "Ronaldd Pinho",
 	"colors": {
-		"foreground": "#ffffff",
+		"foreground": "#eedddd",
 		"textLink.foreground": "#FFD000",
 		"textLink.activeForeground": "#ffffff",
 		"focusBorder": "#600a0a",
@@ -16,15 +16,16 @@
 		"input.foreground": "#ffd000",
 		"input.border": "#000",
 		"input.placeholderForeground": "#555",
-		"badge.background": "#FA230A",
+		"badge.background": "#FFD000",
+		"badge.foreground": "#111",
 		
 		// Página inicial
-		"welcomePage.background": "#1f0808",
-		"welcomePage.buttonBackground": "#2f0808",
-		"welcomePage.buttonHoverBackground": "#2f080877",
+		"welcomePage.background": "#070707",
+		"welcomePage.buttonBackground": "#2f2f2f",
+		"welcomePage.buttonHoverBackground": "#2f2f2f77",
 		
 		// Editor
-		"editor.background": "#1f0808",
+		"editor.background": "#070707",
 		"editor.foreground": "#ffdddd",
 		"editor.selectionBackground": "#fc143120",
 		"editor.selectionForeground": "#000",
@@ -153,7 +154,7 @@
 			],
 			"settings": {
 				"foreground": "#0077b6",
-				"fontStyle": "bold"
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -166,8 +167,7 @@
 				"punctuation.definition.string.end.cpp",
 			],
 			"settings": {
-				"foreground": "#668db5",
-				// "fontStyle": "bold"
+				"foreground": "#668db5"
 			}
 		},
 		{
@@ -186,7 +186,8 @@
 				"storage.source.cmake"
 			],
 			"settings": {
-				"foreground": "#0077b6"
+				"foreground": "#0077b6",
+				"fontStyle": "italic"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -210,7 +211,7 @@
 				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#fA230A"
+				"foreground": "#FA330A"
 			}
 		},
 		{
