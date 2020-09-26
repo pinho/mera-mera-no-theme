@@ -248,6 +248,14 @@
 				"punctuation.section.parameters.end.bracket.round",
 				"punctuation.section.block.begin.bracket.curly.function.definition",
 				"punctuation.section.block.end.bracket.curly.function.definition",
+				"punctuation.definition.capture.begin.lambda.cpp",
+				"punctuation.definition.capture.end.lambda.cpp",
+				"punctuation.definition.parameters.begin.lambda.cpp",
+				"punctuation.definition.parameters.end.lambda.cpp",
+				"punctuation.section.block.begin.bracket.curly.lambda.cpp",
+				"punctuation.section.block.end.bracket.curly.lambda.cpp",
+				"punctuation.section.method.begin.bracket.curly.java",
+				"punctuation.section.method.end.bracket.curly.java",
 				"keyword.other.special-method.dockerfile"
 			],
 			"settings": {
@@ -284,6 +292,8 @@
 				"storage.type",
 				"punctuation.section.block.begin.bracket.curly.class",
 				"punctuation.section.block.end.bracket.curly.class",
+				"punctuation.section.class.begin.bracket.curly.java",
+				"punctuation.section.class.end.bracket.curly.java",
 				"punctuation.separator.colon.inheritance"
 			],
 			"settings": {
