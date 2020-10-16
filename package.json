@@ -2,7 +2,7 @@
     "name": "vermilion",
     "displayName": "Vermilion",
     "description": "A theme for fanatics by red",
-    "version": "0.19.0",
+    "version": "0.20.0",
     "publisher": "Ronaldd",
     "author": "Ronaldd Pinho",
     "contributes": {
@@ -11,11 +11,6 @@
                 "label": "Vermillion",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Vermillion-color-theme.json"
-            },
-            {
-                "label": "Vermillion Darker",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Vermillion-Darker-theme.json"
             }
         ]
     },
