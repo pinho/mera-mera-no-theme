@@ -156,7 +156,7 @@
 				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
-				"foreground": "#f71d36",
+				"foreground": "#25a18e",
 				"fontStyle": "bold"
 			}
 		},
@@ -170,7 +170,8 @@
 				"punctuation.definition.string.end",
 			],
 			"settings": {
-				"foreground": "#e26d5c"
+				// "foreground": "#e26d5c"
+				"foreground": "#7ae582"
 			}
 		},
 		{
@@ -189,8 +190,7 @@
 				"storage.source.cmake"
 			],
 			"settings": {
-				"foreground": "#e71d36",
-				// "fontStyle": "italic"
+				"foreground": "#25a18e"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -214,7 +214,7 @@
 				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#FA230A"
+				"foreground": "#ff0054"
 			}
 		},
 		{
@@ -236,7 +236,7 @@
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#FFFFFF",
+				"foreground": "#ffe66d",
 				"fontStyle": "bold"
 			}
 		},
@@ -262,7 +262,7 @@
 				"keyword.other.special-method.dockerfile"
 			],
 			"settings": {
-				"foreground": "#ffca0a"
+				"foreground": "#ffbd00"
 			}
 		},
 		{
@@ -301,9 +301,8 @@
 				"punctuation.separator.colon.inheritance"
 			],
 			"settings": {
-				// "foreground": "#9381ff"
 				// "foreground": "#7209b7"
-				"foreground": "#25a18e"
+				"foreground": "#ef233c",
 			}
 		},
 		{
@@ -329,7 +328,7 @@
 			],
 			"settings": {
 				// "foreground": "#560bad" // roxo
-				"foreground": "#7ae582"
+				"foreground": "#d80032"
 			}
 		},
 		{
@@ -352,7 +351,7 @@
 				// "markup.inline.raw.string"
 			],
 			"settings": {
-				"foreground": "#8A3334",
+				"foreground": "#883032",
 				"fontStyle": "italic bold"
 			}
 		},
@@ -362,10 +361,11 @@
 		{
 			"name": "Auto-Pointer",
 			"scope": [
-				"variable.language.this"
+				"variable.language.this",
+				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#20CF55",
+				"foreground": "#8338ec",
 				"fontStyle": "italic"
 			}
 		},
@@ -390,7 +390,7 @@
 				"entity.name.class"
 			],
 			"settings": {
-				"foreground": "#ff7b00"
+				"foreground": "#fb5607"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -407,7 +407,7 @@
 				"string.quoted.other"
 			],
 			"settings": {
-				"foreground": "#f4d35e"
+				"foreground": "#7ae582"
 			}
 		},
 		{
