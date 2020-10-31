@@ -1,5 +1,3 @@
-<img src="./assets/Sunset_logo.png" alt="Logo" />
-
 <div style="text-align:center">
   <h1>Vermillion Theme</h1>
 </div>

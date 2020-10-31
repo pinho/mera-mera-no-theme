@@ -3,128 +3,128 @@
 	"type": "dark",
 	"author": "Ronaldd Pinho",
 	"colors": {
-		"foreground": "#ffffff",
-		"textLink.foreground": "#9A9A9A",
+		"foreground": "#eeeeee",
+		"textLink.foreground": "#BABABA",
 		"textLink.activeForeground": "#ffffff",
-		"focusBorder": "#600a0a",
+		"focusBorder": "#560B0C",
 
-		// Buttons and text inputs
+		// Botões e campos de texto
 		"button.foreground": "#ffffff",
-		"button.background": "#140204",
-		"button.hoverBackground": "#000",
-		"input.background": "#111",
-		"input.foreground": "#f3722c",
-		"input.border": "#000",
-		"input.placeholderForeground": "#555",
-		"badge.background": "#FFD000",
-		"badge.foreground": "#111",
+		"button.background": "#1D0A0F",
+		"button.hoverBackground": "#560B0C",
+		"input.background": "#111111",
+		"input.foreground": "#EEEEEE",
+		"input.border": "#FC9B33",
+		"input.placeholderForeground": "#886666",
+		"badge.background": "#FC9B33",
+		"badge.foreground": "#1D0A0F",
 		
 		// Página inicial
-		"welcomePage.background": "#140204",
-		"welcomePage.buttonBackground": "#140204",
-		"welcomePage.buttonHoverBackground": "#9d0208",
+		"welcomePage.background": "#1D0A0F",
+		"welcomePage.buttonBackground": "#140106",
+		// "welcomePage.buttonHoverBackground": "#560B0C",
 		
 		// Editor
-		"editor.background": "#140204",
-		"editor.foreground": "#ffdddd",
-		"editor.selectionBackground": "#5554",
+		"editor.background": "#1D0A0F",
+		"editor.foreground": "#EEEEEE",
+		"editor.selectionBackground": "#a5190855",
 		"editor.selectionForeground": "#000",
-		"editor.selectionHighlightBackground": "#000b",
-		"editor.lineHighlightBorder": "#1f0808",
-		"editor.lineHighlightBackground": "#1f0808",
-		"editorCursor.foreground": "#f94144",
-		"editorCursor.background": "#f94144",
-		"editorRuler.foreground": "#300304",
-		"editorLineNumber.foreground": "#555",
-		"editorLineNumber.activeForeground": "#888",
-		"editorGroupHeader.tabsBackground": "#140204",
-		"editorGutter.background": "#140204",
-		"editorGutter.modifiedBackground": "#FFF75E",
+		"editor.selectionHighlightBackground": "#A84CCC33",
+		"editor.lineHighlightBorder": "#220F15",
+		"editor.lineHighlightBackground": "#220F15",
+		"editorCursor.foreground": "#ffcd1c",
+		"editorCursor.background": "#ffcd1c",
+		"editorRuler.foreground": "#dc2c08",
+		"editorLineNumber.foreground": "#4e3a3f",
+		"editorLineNumber.activeForeground": "#a51908",
+		"editorGroupHeader.tabsBackground": "#1D0A0F",
+		"editorGutter.background": "#1D0A0F",
+		"editorGutter.modifiedBackground": "#f9c74f",
 		"editorGutter.addedBackground": "#7aff7a",
 		"editorGutter.deletedBackground": "#E82510",
-		"editorGutter.foldingControlForeground": "#ff0000",
-		"editorIndentGuide.background": "#522",
-		"editorIndentGuide.activeBackground": "#b93133",
-		// "minimap.background": "#140204",
+		// "editorGutter.foldingControlForeground": "#ff0000",
+		"editorIndentGuide.background": "#560b0c",
+		"editorIndentGuide.activeBackground": "#FC9B33",
 		
-		// Caixa de sugestões no editor
-		"editorSuggestWidget.background": "#140204",
-		"editorSuggestWidget.selectedBackground": "#220606",
-		"editorSuggestWidget.foreground": "#ffeeee",
+		// // Caixa de sugestões no editor
+		"editorSuggestWidget.background": "#1D0A0F",
+		"editorSuggestWidget.selectedBackground": "#560b0c",
+		"editorSuggestWidget.foreground": "#eeeeee",
 		"editorSuggestWidget.border": "#000",
-		"editorSuggestWidget.highlightForeground": "#fc1431",
+		"editorSuggestWidget.highlightForeground": "#882CAC",
 		
-		// 
-		"panel.background": "#140204",
-		"panel.border": "#fc1431",
-		"panelInput.border": "#FC1431",
+		"panel.background": "#1d0a0f",
+		"panel.border": "#f15b0a",
+		"panelInput.border": "#f15b0a",
 		
 		// Títulos das tabs
-		"tab.border": "#140204",
-		"tab.activeBorder": "#fc1431",
-		"tab.hoverBackground": "#200204",
-		"tab.inactiveBackground": "#0F0000",
-		"tab.inactiveForeground": "#9f5255",
-		"tab.activeModifiedBorder": "#faa307",
+		"tab.border": "#1D0A0F",
+		"tab.activeBorder": "#560B0C",
 		"tab.activeForeground": "#ffffff",
+		"tab.hoverBackground": "#560B0C",
+		"tab.inactiveBackground": "#1D0A0F",
+		"tab.inactiveForeground": "#886666",
+		"tab.activeModifiedBorder": "#fc9b33",
 		
 		// Barra de menu ao lado (arquivos, extensões, etc...)
-		"activityBar.background": "#140204",
-		"activityBar.foreground": "#fc1431",
-		"activityBarBadge.background": "#fb5607",
-		"activityBarBadge.foreground": "#FFF",
+		"activityBar.background": "#1D0A0F",
+		"activityBar.foreground": "#fe180e",
+		"activityBarBadge.background": "#FAA307",
+		"activityBarBadge.foreground": "#1d0a0f",
 		
-		// Side menu/tree container
-		"sideBar.background": "#140204",
-		"sideBar.foreground": "#9f5255",
-		"sideBar.dropBackground": "#140204",
+		// Menus e árvores na barra à esquerda
+		"sideBar.background": "#1D0A0F",
+		"sideBar.foreground": "#886666",
+		"sideBar.dropBackground": "#1D0A0F",
 		"sideBarTitle.foreground": "#fff",
-		"sideBarSectionHeader.foreground": "#A1A1A1",
-		"sideBarSectionHeader.background": "#140204",
-		"sideBarSectionHeader.border": "#140204",
-		"sideBar.border": "#140204",
+		"sideBarSectionHeader.foreground": "#A0A0A0",
+		"sideBarSectionHeader.background": "#140106",
+		"sideBarSectionHeader.border": "#140106",
 
 		// Listas e seus itens
-		"list.activeSelectionBackground": "#1f0808",
-		"list.activeSelectionForeground": "#ffffff",
-		"list.hoverBackground": "#300208",
+		"list.hoverBackground": "#2f101a",
 		"list.hoverForeground": "#ffffff",
-		"list.inactiveSelectionBackground": "#370617",
-		"list.errorForeground": "#d00000",
+		"list.activeSelectionBackground": "#1D0A0F",
+		"list.activeSelectionForeground": "#fc9b33",
+		"list.inactiveSelectionBackground": "#1D0A0F",
+		"list.inactiveSelectionForeground": "#886666",
+		"list.errorForeground": "#c00000",
 		"list.focusForeground": "#ffffff",
-		"list.focusBackground": "#2F0A0A",
 		"list.inactiveFocusBackground": "#3F0A0A",
 		
-		"terminal.border": "#140204",
-		"terminal.background": "#140204",
-		"terminalCursor.foreground": "#f77f00",
+		"terminal.border": "#fc9b33",
+		"terminal.background": "#1D0A0F",
+		"terminalCursor.foreground": "#fc9b33",
+
+		// Caixa de entrada de texto (Ctrl+Shift+P)
+		"quickInput.background": "#140106",
+		"quickInput.foreground": "#FFFFFF",
 		
 		// Dialog notifications
-		"notifications.foreground": "#FFFFFF",
-		"notifications.background": "#140204",
-		"notificationLink.foreground": "#FFDDDD",
-		"notifications.border": "#000",
-		"notificationCenter.border": "#1F0808",
-		"notificationCenterHeader.foreground": "#FFDDDD",
-		"notificationCenterHeader.background": "#140204",
-		"notificationToast.border": "#000",
-		"notificationsInfoIcon.foreground": "#7Aff7A",
-		"notificationsErrorIcon.foreground": "#FA230A",
-		"notificationsWarningIcon.foreground": "#FDD000",
+		"notifications.foreground": "#EEEEEE",
+		"notifications.background": "#1D0A0F",
+		"notificationLink.foreground": "#a0a0a0",
+		"notifications.border": "#000000",
+		"notificationCenter.border": "#140106",
+		"notificationCenterHeader.foreground": "#FFFFFF",
+		"notificationCenterHeader.background": "#140106",
+		"notificationToast.border": "#1d0a0f",
+		"notificationsInfoIcon.foreground": "#fc9b33",
+		"notificationsErrorIcon.foreground": "#a51908",
+		"notificationsWarningIcon.foreground": "#ffcd1c",
 		
-		// Barra de status, a barra mais abaixo
-		"statusBar.background": "#140204",
-		"statusBar.foreground": "#FFDDDD",
-		"statusBar.noFolderBackground": "#ff006e",
-		"statusBar.noFolderForeground": "#FFF",
-		"statusBarItem.activeBackground": "#2f0a0a",
+		// // Barra de status, a barra mais abaixo
+		"statusBar.background": "#1D0A0F",
+		"statusBar.foreground": "#FFFFFF",
+		"statusBar.noFolderBackground": "#fe180e",
+		"statusBar.noFolderForeground": "#FFFFFF",
+		"statusBar.debuggingBackground": "#44de6d",
+		"statusBar.debuggingForeground": "#000000",
 		"statusBarItem.hoverBackground": "#100205",
-		"statusBar.debuggingBackground": "#2b9348",
-		"statusBar.debuggingForeground": "#FFF",
 
-		// Bloco de botões/opções de debug
-		"debugToolBar.background": "#131313",
-		"debugToolBar.border": "#232323"
+		// // Bloco de botões/opções de debug
+		"debugToolBar.background": "#560B0C",
+		"debugToolBar.border": "#FC9B33"
 	},
 
 	"tokenColors": [
@@ -140,8 +140,83 @@
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#622030",
+				"foreground": "#4e3a3f",
 				"fontStyle": "italic"
+			}
+		},
+		//--------------------------------------------------------------------------
+		// String literais (texto definido com aspas)
+		//  + caracteres de escape
+		//  + caracteres de formatação com %
+		//--------------------------------------------------------------------------
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.single",
+				"string.quoted.double",
+				"string.quoted.triple",
+				"string.quoted.other"
+			],
+			"settings": {
+				"foreground": "#f4d35e"
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": [ "constant.character.escape" ],
+			"settings": {
+				"foreground": "#f15b0a"
+			}
+		},
+		//--------------------------------------------------------------------------
+		// Palavras reservadas de linguagens de programação tais como:
+		// * Estruturas de controle de fluxo:
+		//   - for, while, if, else, switch-case, class, struct, public, private ...
+		// * Tipo primitivos:
+		//   - int, float, double, char, ...
+		// * Modificadores:
+		//   - const, var, ...
+		//--------------------------------------------------------------------------
+		{
+			"name": "General Keywords",
+			"scope": [
+				"keyword.control",
+				"keyword.operator.cpp",
+				"punctuation.section.parens.begin.bracket.round",
+				"punctuation.section.parens.end.bracket.round",
+				"punctuation.section.block.begin.bracket.curly",
+				"punctuation.section.block.end.bracket.curly",
+				"punctuation.separator.scope-resolution",
+				"punctuation.terminator.statement",
+				"punctuation.separator.dot-access",
+				"keyword.cmake",
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#fe180e"
+			}
+		},
+		{
+			"name": "Default Operators",
+			"scope": [ 
+				"keyword.operator.cpp",
+				"storage.modifier.reference.cpp"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Default Operators -- Bold",
+			"scope": [
+				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.logical",
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": "bold"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -189,55 +264,7 @@
 				"storage.source.cmake"
 			],
 			"settings": {
-				"foreground": "#e71d36",
-				// "fontStyle": "italic"
-			}
-		},
-		//--------------------------------------------------------------------------
-		// Palavras reservadas da linguagem, como estruturas de
-		// controle de fluxo (for, while, if, else ...) e tipos
-		// primitivos (int, double, char ...)
-		//--------------------------------------------------------------------------
-		{
-			"name": "General Keywords",
-			"scope": [
-				"keyword.control",
-				"keyword.operator.cpp",
-				"punctuation.section.parens.begin.bracket.round",
-				"punctuation.section.parens.end.bracket.round",
-				"punctuation.section.block.begin.bracket.curly",
-				"punctuation.section.block.end.bracket.curly",
-				"punctuation.separator.scope-resolution",
-				"punctuation.terminator.statement",
-				"punctuation.separator.dot-access",
-				"keyword.cmake",
-				"entity.name.tag"
-			],
-			"settings": {
-				"foreground": "#FA230A"
-			}
-		},
-		{
-			"name": "Default Operators",
-			"scope": [ 
-				"keyword.operator.cpp",
-				"storage.modifier.reference.cpp"
-			],
-			"settings": {
-				"foreground": "#fff"
-			}
-		},
-		{
-			"name": "Default Operators -- Bold",
-			"scope": [
-				"keyword.operator.arithmetic",
-				"keyword.operator.assignment",
-				"keyword.operator.logical",
-				"keyword.operator.new"
-			],
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "bold"
+				"foreground": "#e71d36"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -259,6 +286,9 @@
 				"punctuation.section.block.end.bracket.curly.lambda.cpp",
 				"punctuation.section.method.begin.bracket.curly.java",
 				"punctuation.section.method.end.bracket.curly.java",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python",
+				"punctuation.section.function.begin.python",
 				"keyword.other.special-method.dockerfile"
 			],
 			"settings": {
@@ -286,6 +316,13 @@
 				"fontStyle": "bold"
 			}
 		},
+		{
+			"name": "Python Magic Functions",
+			"scope": [ "support.function.magic.python" ],
+			"settings": {
+				"foreground": "#fff75e"
+			}
+		},
 		//--------------------------------------------------------------------------
 		// Keywords relacionadas à armazenamento,
 		// Tipos primitivos, modificadores de acesso, palavras de definição
@@ -301,9 +338,7 @@
 				"punctuation.separator.colon.inheritance"
 			],
 			"settings": {
-				// "foreground": "#9381ff"
-				// "foreground": "#7209b7"
-				"foreground": "#25a18e"
+				"foreground": "#a85ccc"
 			}
 		},
 		{
@@ -325,11 +360,11 @@
 				"punctuation.section.block.end.bracket.curly.struct",
 				"punctuation.section.angle-brackets.start.template.definition.cpp",
 				"punctuation.section.angle-brackets.end.template.definition.cpp",
+				"support.type.python",
 				"meta.tail.extern.cpp"
 			],
 			"settings": {
-				// "foreground": "#560bad" // roxo
-				"foreground": "#7ae582"
+				"foreground": "#9a2080"
 			}
 		},
 		{
@@ -352,8 +387,8 @@
 				// "markup.inline.raw.string"
 			],
 			"settings": {
-				"foreground": "#8A3334",
-				"fontStyle": "italic bold"
+				"foreground": "#A59898",
+				"fontStyle": "italic"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -362,7 +397,8 @@
 		{
 			"name": "Auto-Pointer",
 			"scope": [
-				"variable.language.this"
+				"variable.language.this",
+				"variable.language.special.self.python"
 			],
 			"settings": {
 				"foreground": "#20CF55",
@@ -376,7 +412,6 @@
 			],
 			"settings": {
 				"foreground": "#747474",
-				// "fontStyle": "bold"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -393,42 +428,15 @@
 				"foreground": "#ff7b00"
 			}
 		},
-		//--------------------------------------------------------------------------
-		// String literais (texto definido com aspas)
-		//  + caracteres de escape
-		//  + caracteres de formatação com %
-		//--------------------------------------------------------------------------
-		{
-			"name": "Strings",
-			"scope": [
-				"string.quoted.single",
-				"string.quoted.double",
-				"string.quoted.triple",
-				"string.quoted.other"
-			],
-			"settings": {
-				"foreground": "#f4d35e"
-			}
-		},
-		{
-			"name": "Escape Characters",
-			"scope": [
-				"constant.character.escape"
-			],
-			"settings": {
-				"foreground": "#fff8a5",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "C/C++ Placeholder",
-			"scope": [
-				"constant.other.placeholder"
-			],
-			"settings": {
-				"foreground": "#f95738"
-			}
-		},
+		// {
+		// 	"name": "C/C++ Placeholder",
+		// 	"scope": [
+		// 		"constant.other.placeholder"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f95738"
+		// 	}
+		// },
 		//--------------------------------------------------------------------------
 		// Valores constantes:
 		// Aplicado à valores numéricos (int, double, float), valores
@@ -440,6 +448,7 @@
 				"constant.numeric",
 				"constant.language.true",
 				"constant.language.false",
+				"constant.language.python",
 				"constant.rgb-value"
 			],
 			"settings": {
