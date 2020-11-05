@@ -189,6 +189,8 @@
 				"punctuation.separator.scope-resolution",
 				"punctuation.terminator.statement",
 				"punctuation.separator.dot-access",
+				"punctuation.brackets.curly.rust",
+				"punctuation.semi.rust",
 				"keyword.cmake",
 				"entity.name.tag"
 			],
@@ -231,7 +233,7 @@
 				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
-				"foreground": "#f71d36",
+				"foreground": "#AFAFAF",
 				"fontStyle": "bold"
 			}
 		},
@@ -243,9 +245,10 @@
 				"string.quoted.double.include.cpp",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
+				"storage.modifier.import.java",
 			],
 			"settings": {
-				"foreground": "#e26d5c"
+				"foreground": "#f4d35e"
 			}
 		},
 		{
@@ -260,11 +263,13 @@
 				"keyword.control.directive.conditional.if.cpp",
 				"keyword.control.directive.else.cpp",
 				"keyword.control.directive.endif.cpp",
+				"keyword.other.import.java",
+				"storage.modifier.package.java",
 				"storage.type.class.doxygen",
 				"storage.source.cmake"
 			],
 			"settings": {
-				"foreground": "#e71d36"
+				"foreground": "#9A9A9A"
 			}
 		},
 		//--------------------------------------------------------------------------
@@ -274,20 +279,25 @@
 			"name": "Functions & Brackets",
 			"scope": [
 				"entity.name.function",
+				"punctuation.brackets.round.rust",
 				"punctuation.section.parameters.begin.bracket.round",
 				"punctuation.section.parameters.end.bracket.round",
 				"punctuation.section.block.begin.bracket.curly.function.definition",
 				"punctuation.section.block.end.bracket.curly.function.definition",
+				"punctuation.definition.parameters.begin",
+				"punctuation.definition.parameters.end",
 				"punctuation.definition.capture.begin.lambda.cpp",
 				"punctuation.definition.capture.end.lambda.cpp",
 				"punctuation.definition.parameters.begin.lambda.cpp",
 				"punctuation.definition.parameters.end.lambda.cpp",
+				"punctuation.definition.parameters.begin.bracket.round.java",
+				"punctuation.definition.parameters.end.bracket.round.java",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python",
 				"punctuation.section.block.begin.bracket.curly.lambda.cpp",
 				"punctuation.section.block.end.bracket.curly.lambda.cpp",
 				"punctuation.section.method.begin.bracket.curly.java",
 				"punctuation.section.method.end.bracket.curly.java",
-				"punctuation.definition.parameters.begin.python",
-				"punctuation.definition.parameters.end.python",
 				"punctuation.section.function.begin.python",
 				"keyword.other.special-method.dockerfile"
 			],
@@ -364,7 +374,7 @@
 				"meta.tail.extern.cpp"
 			],
 			"settings": {
-				"foreground": "#9a2080"
+				"foreground": "#722ecd"
 			}
 		},
 		{
@@ -398,11 +408,11 @@
 			"name": "Auto-Pointer",
 			"scope": [
 				"variable.language.this",
-				"variable.language.special.self.python"
+				"variable.language.special.self.python",
+				"entity.name.function.macro.rust"
 			],
 			"settings": {
-				"foreground": "#20CF55",
-				"fontStyle": "italic"
+				"foreground": "#20CF55"
 			}
 		},
 		{
