@@ -2,7 +2,7 @@
     "name": "vermilion",
     "displayName": "Vermilion",
     "description": "A theme for help with blue lights filter",
-    "version": "0.24.0",
+    "version": "1.0.0",
     "publisher": "Ronaldd",
     "author": "Ronaldd Pinho",
     "contributes": {
@@ -15,7 +15,7 @@
         ]
     },
     "engines": {
-        "vscode": "^1.47.0"
+        "vscode": "^1.49.0"
     },
     "categories": [
         "Themes"

@@ -191,6 +191,7 @@
 				"punctuation.separator.dot-access",
 				"punctuation.brackets.curly.rust",
 				"punctuation.semi.rust",
+				"keyword.other.fn.rust",
 				"keyword.cmake",
 				"entity.name.tag"
 			],
@@ -341,6 +342,7 @@
 			"name": "Primitive types",
 			"scope": [
 				"storage.type",
+				"keyword.other.crate.rust",
 				"punctuation.section.block.begin.bracket.curly.class",
 				"punctuation.section.block.end.bracket.curly.class",
 				"punctuation.section.class.begin.bracket.curly.java",
