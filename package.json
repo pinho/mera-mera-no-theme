@@ -1,10 +1,11 @@
 {
-    "name": "vermilion",
-    "displayName": "Vermilion",
+    "name": "magma-theme",
+    "displayName": "Magma",
     "description": "A theme for help with blue lights filter",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "publisher": "Ronaldd",
     "author": "Ronaldd Pinho",
+    "icon": "images/cartoon-marte.png",
     "contributes": {
         "themes": [
             {

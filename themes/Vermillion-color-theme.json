@@ -300,7 +300,8 @@
 				"punctuation.section.method.begin.bracket.curly.java",
 				"punctuation.section.method.end.bracket.curly.java",
 				"punctuation.section.function.begin.python",
-				"keyword.other.special-method.dockerfile"
+				"keyword.other.special-method.dockerfile",
+				"meta.function-call.generic.python"
 			],
 			"settings": {
 				"foreground": "#ffca0a"
@@ -309,10 +310,11 @@
 		{
 			"name": "Function Params",
 			"scope": [
-				"variable.parameter"
+				"variable.parameter",
+				"variable.parameter.function-call.python"
 			],
 			"settings": {
-				"foreground": "#efebce",
+				"foreground": "#efef80",
 				"fontStyle": "italic"
 			}
 		},
@@ -357,7 +359,8 @@
 				"punctuation.section.block.end.bracket.curly.class",
 				"punctuation.section.class.begin.bracket.curly.java",
 				"punctuation.section.class.end.bracket.curly.java",
-				"punctuation.separator.colon.inheritance"
+				"punctuation.separator.colon.inheritance",
+				"punctuation.section.class.begin.python"
 			],
 			"settings": {
 				"foreground": "#a85ccc"
@@ -372,6 +375,7 @@
 				"keyword.other.typename",
 				"keyword.operator.sizeof",
 				"keyword.operator.increment",
+				"keyword.operator.assignment.python",
 				"punctuation.section.arguments.begin.bracket.round.operator.sizeof.cpp",
 				"punctuation.section.arguments.end.bracket.round.operator.sizeof.cpp",
 				"punctuation.section.block.begin.bracket.curly.namespace.cpp",
@@ -471,10 +475,22 @@
 				"constant.language.true",
 				"constant.language.false",
 				"constant.language.python",
-				"constant.rgb-value"
+				"constant.rgb-value",
+				"constant.other.caps.python"
 			],
 			"settings": {
 				"foreground": "#2176ff"
+			}
+		},
+		// Python
+		{
+			"name": "Python Specific",
+			"scope": [
+				"entity.name.type.class.python",
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"foreground": "#FC2441"
 			}
 		},
 		//--------------------------------------------------------------------------
