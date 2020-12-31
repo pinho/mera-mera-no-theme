@@ -6,9 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+## [0.29.1] December 31, 2020
 
-## [1.0.0] - 2020-11-19
-### Added
+- Changed some syntax colors, such:
+    * primitive types and modifiers
+    * default languages keywords
+    * strings
+    * C++ Include guards
 
-- New Icon: Mars Cartoon (png)

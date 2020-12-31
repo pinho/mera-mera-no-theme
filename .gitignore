@@ -1,4 +1,2 @@
 *.vsix
-NOTES.*
-
-.vscode/**
+!.vscode/launch.json
