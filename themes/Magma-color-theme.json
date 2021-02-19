@@ -187,11 +187,14 @@
 				"punctuation.section.block.begin.bracket.curly",
 				"punctuation.section.block.end.bracket.curly",
 				"punctuation.separator.scope-resolution",
-				
+				"punctuation.definition.imports.begin.bracket.round.go",
+				"punctuation.definition.imports.end.bracket.round.go",
 				"punctuation.brackets.curly.rust",
 				"punctuation.semi.rust",
 				"keyword.other.fn.rust",
 				"keyword.cmake",
+				"keyword.package",
+				"keyword.import",
 				"entity.name.tag"
 			],
 			"settings": {
@@ -371,6 +374,7 @@
 			"name": "Default Modifiers",
 			"scope": [
 				"storage.modifier",
+				"keyword.function",
 				"keyword.other.using.directive",
 				"keyword.other.typedef",
 				"keyword.other.typename",
