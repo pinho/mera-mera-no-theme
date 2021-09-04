@@ -1,15 +1,15 @@
 {
-    "name": "magma-theme",
-    "displayName": "Magma",
+    "name": "mera-mera-no-theme",
+    "displayName": "Mera Mera no Theme",
     "description": "A hot-color based theme for help with blue lights filter",
-    "version": "0.30.0",
-    "publisher": "Ronaldd",
+    "version": "0.1.0",
+    "publisher": "Ronaldd Pinho",
     "author": "Ronaldd Pinho",
     "icon": "images/cartoon-marte.png",
     "contributes": {
         "themes": [
             {
-                "label": "Magma",
+                "label": "Mera Mera",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Magma-color-theme.json"
             }
